@@ -26,8 +26,8 @@ ht-degree: 0%
 Exchange合作夥伴可存取各種Adobe [!DNL Experience Cloud] products (非AEP產品，例如 [!DNL Analytics]， [!DNL Target]、Platform標籤等)透過其自己的Adobe [!DNL Experience Cloud] 組織（非共用）。 合作夥伴被授予系統管理員對其自身組織的存取權以管理使用者和其他許可權。 Adobe [!DNL Experience Platform] (AEP)的處理方式與其他Adobe沙箱不同。 主要差異如下：
 
 * AEP的存取權不會透過合作夥伴的主要Adobe進行 [!DNL Experience Cloud] 沙箱組織。
-* 透過共用AdobeExchange組織存取AEP。
-* 許多其他AdobeExchange合作夥伴公司也使用相同的組織存取AEP
+* 透過共用Adobe Exchange組織存取AEP。
+* 許多其他Adobe Exchange合作夥伴公司也使用相同的組織存取AEP
    * 透過AEP沙箱功能，其他合作夥伴將無法檢視或修改此共用組織內的資料和活動；每個合作夥伴將可以存取共用組織內的不同沙箱。
 * 此共用組織中的管理許可權非常有限。
 * 獲得在AEP上存取沙箱的許可權後，合作夥伴將在UI的右上角的Org Switcher上看到兩個組織，同時在Admin Console或主要Experience Cloud首頁中。 不過，登入AEP時，應該只會顯示共用組織。

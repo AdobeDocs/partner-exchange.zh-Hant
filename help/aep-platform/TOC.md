@@ -4,7 +4,7 @@ product: experience cloud
 sub-product: partner exchange
 audience: partner
 user-guide-title: Adobe Exchange — 整合指南
-user-guide-description: AdobeExchange整合指南
+user-guide-description: Adobe Exchange整合指南
 source-git-commit: fe7519c35fb9155ce54cad85941c887f15881a38
 workflow-type: tm+mt
 source-wordcount: '43'
