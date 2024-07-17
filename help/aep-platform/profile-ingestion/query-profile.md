@@ -11,11 +11,11 @@ ht-degree: 0%
 
 # 使用設定檔API存取統一設定檔
 
-Adobe [!DNL Experience Platform] 可以即時存取客戶設定檔； [[!DNL Experience Platform] 即時客戶設定檔API](https://adobe.ly/2TtDHWr) 專門設計用來與那個互動。 檢視此 [教學課程](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html) 瞭解如何使用設定檔API存取即時客戶設定檔資料。
+Adobe[!DNL Experience Platform]可以即時存取客戶設定檔；[[!DNL Experience Platform] 即時客戶設定檔API](https://adobe.ly/2TtDHWr)已設計成用來與它互動。 請參閱此[教學課程](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html)，瞭解如何使用設定檔API存取即時客戶設定檔資料。
 
 本文會大量參考上述連結的教學課程。
 
-此 [Postman集合](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman) 整篇文章都會使用相關的呼叫次數來參照。 有關安裝和使用Postman集合的詳細資訊，請參閱Github [讀我檔案](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/README.md) 頁面。 也有範例資料集 [忠誠度](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20events.json) 和 [設定檔](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20profiles.json) 資料。
+整篇文章都使用相關的號碼呼叫來參考[Postman集合](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman)。 有關安裝和使用Postman集合的詳細資訊，請參閱Github [README](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/README.md)頁面。 還有[忠誠度](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20events.json)和[個人資料](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20profiles.json)資料的範例資料集。
 
 在本節中，請使用Postman資料夾5：設定檔查詢、5a：即時查詢設定檔資料或5b：即時查詢事件資料。
 
@@ -23,9 +23,9 @@ Adobe [!DNL Experience Platform] 可以即時存取客戶設定檔； [[!DNL Exp
 
 以下小節可協助您驗證Experience Platform。 瞭解API路徑、標題資訊等。
 
-### 驗證給 [!DNL Platform]
+### 驗證[!DNL Platform]
 
-另請參閱 [此](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html) 進行下列任何呼叫之前的驗證教學課程。
+在執行以下任何呼叫之前，請先參閱[此](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html)驗證教學課程。
 
 ### API路徑
 
@@ -33,7 +33,7 @@ Adobe [!DNL Experience Platform] 可以即時存取客戶設定檔； [[!DNL Exp
 
 API的基本路徑為： `/data/core/ups/access/entities`
 
-完整路徑的範例如下： `https://platform.adobe.io/data/core/ups/access/entities`
+完整路徑的範例為： `https://platform.adobe.io/data/core/ups/access/entities`
 
 ### 頁首資訊
 
@@ -45,11 +45,11 @@ API的基本路徑為： `/data/core/ups/access/entities`
 * x-sandbox-name — 從Adobe整合管理員取得
 * Content-Type： application/json
 
-如需有關標頭的詳細資訊，請參閱 [教學課程](https://adobe.ly/2PTHuKv).
+在[教學課程](https://adobe.ly/2PTHuKv)中找到有關標頭的更多資訊。
 
 ## 使用身分存取即時客戶設定檔
 
-設定檔API可讓您透過GET要求，使用身分存取設定檔。 以下各節將依照以下內容進行 [指南](https://docs.adobe.com/content/help/en/experience-platform/profile/api/entities.html).
+設定檔API可讓您透過GET要求，使用身分存取設定檔。 以下章節將遵循此[指南](https://docs.adobe.com/content/help/en/experience-platform/profile/api/entities.html)。
 
 ### 使用身分存取設定檔資料
 
@@ -141,7 +141,8 @@ curl -X GET \
 
 此API可讓您使用身分清單，透過對/access/entities端點的POST請求並在承載中提供身分，來存取設定檔。 這些身分包含ID值(entityId)和身分名稱空間(entityIdNS)。
 
-請求：以下請求會根據身分清單擷取多個客戶的名稱和電子郵件地址：
+要求：
+以下請求會根據身分清單擷取多個客戶的名稱和電子郵件地址：
 
 ```
 curl -X POST \
@@ -179,7 +180,8 @@ curl -X POST \
 }'
 ```
 
-回應：成功的回應會傳回要求內文中指定之實體的要求欄位。
+回應：
+成功的回應會傳回要求內文中指定之實體的要求欄位。
 
 ```
 {
@@ -326,7 +328,8 @@ curl -X POST \
 
 透過向/access/entities端點發出GET請求，可透過其相關聯設定檔實體的身分存取時間序列事件。 此身分包含ID值(entityId)和身分名稱空間(entityIdNS)。
 
-請求：以下請求會依ID尋找設定檔實體，並擷取屬性endUserIDs、web和channel的值 **全部** 與實體相關聯的時間序列事件。
+要求：
+下列要求會依ID尋找設定檔實體，並擷取與該實體關聯的所有**時間序列事件的屬性endUserIDs、Web和管道**&#x200B;的值。
 
 ```
 curl -X GET \

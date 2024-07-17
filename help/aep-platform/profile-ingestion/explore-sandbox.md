@@ -13,19 +13,19 @@ ht-degree: 0%
 
 本文涵蓋下列內容：
 
-* 現有AdobeExchange合作夥伴沙箱組織與共用AEP沙箱之間的差異。
+* 現有Adobe Exchange合作夥伴沙箱組織與共用AEP沙箱之間的差異。
 * 正在請求存取AEP共用沙箱。
 * 正在接收AEP共用沙箱的電子郵件邀請。
-* 邀請新使用者加入 [!DNL Admin Console].
+* 在[!DNL Admin Console]中邀請新使用者。
 * 導覽AEP UI。
 
-如需AEP中沙箱技術的一般總覽，請參閱此 [文章](https://docs.adobe.com/content/help/zh-Hant/experience-platform/sandbox/home.html).
+如需AEP中沙箱技術的一般概觀，請參閱此[文章](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html)。
 
 ## 共用的AEP沙箱
 
-Exchange合作夥伴可存取各種Adobe [!DNL Experience Cloud] products (非AEP產品，例如 [!DNL Analytics]， [!DNL Target]、Platform標籤等)透過其自己的Adobe [!DNL Experience Cloud] 組織（非共用）。 合作夥伴被授予系統管理員對其自身組織的存取權以管理使用者和其他許可權。 Adobe [!DNL Experience Platform] (AEP)的處理方式與其他Adobe沙箱不同。 主要差異如下：
+Exchange合作夥伴可透過其自己的Adobe[!DNL Experience Cloud]組織（非共用），存取各種Adobe[!DNL Experience Cloud]產品（非AEP產品，例如[!DNL Analytics]、[!DNL Target]、Platform標籤等）。 合作夥伴被授予系統管理員對其自身組織的存取權以管理使用者和其他許可權。 Adobe[!DNL Experience Platform] (AEP)的處理方式與其他Adobe沙箱不同。 主要差異如下：
 
-* AEP的存取權不會透過合作夥伴的主要Adobe進行 [!DNL Experience Cloud] 沙箱組織。
+* 無法透過合作夥伴主要Adobe[!DNL Experience Cloud]沙箱組織存取AEP。
 * 透過共用Adobe Exchange組織存取AEP。
 * 許多其他Adobe Exchange合作夥伴公司也使用相同的組織存取AEP
    * 透過AEP沙箱功能，其他合作夥伴將無法檢視或修改此共用組織內的資料和活動；每個合作夥伴將可以存取共用組織內的不同沙箱。
@@ -34,9 +34,9 @@ Exchange合作夥伴可存取各種Adobe [!DNL Experience Cloud] products (非AE
 
 ## 請求對共用AEP沙箱的存取權
 
-提交 [支援要求](https://adobeexchangeec.zendesk.com/hc/en-us/requests/new) ，並提供下列資訊：
+送出[支援要求](https://adobeexchangeec.zendesk.com/hc/en-us/requests/new)，並提供下列資訊：
 
-* Email Address
+* 電子郵件地址
 * 主旨： AEP沙箱要求
 * 產品：一般布建/沙箱
 * 票證型別：方案支援 — Exchange方案/布建要求問題
@@ -45,13 +45,13 @@ Exchange合作夥伴可存取各種Adobe [!DNL Experience Cloud] products (非AE
 
 ## 接收電子郵件邀請
 
-請求AEP沙箱的主要連絡人將會收到自動電子郵件，邀請他們「開始」使用Adobe [!DNL Experience Platform]. 主要連絡人也會有一些管理許可權，詳見下一節。
+要求AEP沙箱的主要連絡人將會收到自動電子郵件，邀請他們「開始」使用Adobe[!DNL Experience Platform]。 主要連絡人也會有一些管理許可權，詳見下一節。
 
-不要在電子郵件中選取「開始使用」按鈕，請直接導覽至 `https://platform.adobe.com.` 使用與邀請中電子郵件地址相關聯的Adobe ID登入，或建立一個(如果未與Adobe ID相關聯)。
+不要在電子郵件中選取[開始使用]按鈕，請直接導覽至與邀請函中的電子郵件地址相關聯的Adobe ID登入`https://platform.adobe.com.`，或建立一個(如果未與Adobe ID相關聯)。
 
 ## 邀請其他使用者
 
-提交 [支援要求](https://adobeexchangeec.zendesk.com/hc/en-us/requests/new) ，並提供下列資訊：
+送出[支援要求](https://adobeexchangeec.zendesk.com/hc/en-us/requests/new)，並提供下列資訊：
 
 * 要求者電子郵件地址
 * 主旨： AEP Sandbox — 新增管理員/使用者
