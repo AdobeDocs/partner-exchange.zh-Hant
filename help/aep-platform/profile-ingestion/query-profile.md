@@ -329,7 +329,7 @@ curl -X POST \
 透過向/access/entities端點發出GET請求，可透過其相關聯設定檔實體的身分存取時間序列事件。 此身分包含ID值(entityId)和身分名稱空間(entityIdNS)。
 
 要求：
-下列要求會依ID尋找設定檔實體，並擷取與該實體關聯的所有**時間序列事件的屬性endUserIDs、Web和管道**&#x200B;的值。
+下列要求會依ID尋找設定檔實體，並擷取與該實體關聯的所有&#x200B;**時間序列事件的屬性endUserIDs、Web和管道**&#x200B;的值。
 
 ```
 curl -X GET \
