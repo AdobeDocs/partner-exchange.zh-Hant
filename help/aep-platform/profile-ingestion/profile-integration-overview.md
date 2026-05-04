@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 一般資源
 
-* AEP [產品檔案](https://docs.adobe.com/content/help/en/experience-platform/landing/documentation/overview.html)。
+* AEP [產品檔案](https://docs.adobe.com/content/help/zh-Hant/experience-platform/landing/documentation/overview.html)。
 * AEP [擴充性](https://www.adobe.com/insights/experience-platform-api-extensibility.html)。
 
 ## 有問題或意見反應？

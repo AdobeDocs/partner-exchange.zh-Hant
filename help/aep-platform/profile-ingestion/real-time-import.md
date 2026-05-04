@@ -26,14 +26,14 @@ Adobe [!DNL Experience Platform]允許對設定檔和體驗事件進行串流處
 
 ## 先決條件
 
-* [驗證平台](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html)。
+* [驗證平台](https://docs.adobe.com/content/help/zh-Hant/experience-platform/tutorials/authentication.html)。
 * 從上方連結的驗證教學課程收集所需標題的值。
 
 ## 建立串流連線
 
 若要串流至AEP，您必須先建立串流連線。 串流連線包含串流資料來源等屬性，以及您是否傳送屬於[!DNL Experience Data Model] (XDM)結構描述的記錄。 建立串流連線後，您會獲得唯一的URL，可用來將資料串流至AEP。
 
-請前往[這裡](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/create-streaming-connection.html)瞭解如何透過API建立串流連線的指示，或前往[這裡](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/create-streaming-connection-ui.html)瞭解如何透過UI建立串流連線的指示。
+請前往[這裡](https://docs.adobe.com/content/help/zh-Hant/experience-platform/ingestion/tutorials/create-streaming-connection.html)瞭解如何透過API建立串流連線的指示，或前往[這裡](https://docs.adobe.com/content/help/zh-Hant/experience-platform/ingestion/tutorials/create-streaming-connection-ui.html)瞭解如何透過UI建立串流連線的指示。
 
 ```json
 curl -X POST https://platform.adobe.io/data/foundation/flowservice/connections \
@@ -76,7 +76,7 @@ curl -X POST https://platform.adobe.io/data/foundation/flowservice/connections \
 
 針對本節，使用Postman呼叫資料夾： 3：即時匯入，3a：設定檔資料的即時匯入。
 
-包含串流設定檔資料回應的詳細JSON要求已記錄在[此處](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/streaming-record-data.html)。
+包含串流設定檔資料回應的詳細JSON要求已記錄在[此處](https://docs.adobe.com/content/help/zh-Hant/experience-platform/ingestion/tutorials/streaming-record-data.html)。
 
 步驟：
 
@@ -90,7 +90,7 @@ curl -X POST https://platform.adobe.io/data/foundation/flowservice/connections \
 
 對於本節，使用Postman呼叫資料夾： 3：即時匯入，3b：設定檔資料的即時匯入。
 
-包含串流體驗資料回應的詳細JSON要求已記錄在[這裡](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/streaming-time-series-data.html)。
+包含串流體驗資料回應的詳細JSON要求已記錄在[這裡](https://docs.adobe.com/content/help/zh-Hant/experience-platform/ingestion/tutorials/streaming-time-series-data.html)。
 
 步驟：
 

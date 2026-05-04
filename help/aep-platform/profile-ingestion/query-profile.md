@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 使用設定檔API存取統一設定檔
 
-Adobe [!DNL Experience Platform]可以即時存取客戶設定檔；[[!DNL Experience Platform] 即時客戶設定檔API](https://adobe.ly/2TtDHWr)已設計為可與它互動。 請參閱此[教學課程](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html)，瞭解如何使用設定檔API存取即時客戶設定檔資料。
+Adobe [!DNL Experience Platform]可以即時存取客戶設定檔；[[!DNL Experience Platform] 即時客戶設定檔API](https://adobe.ly/2TtDHWr)已設計為可與它互動。 請參閱此[教學課程](https://docs.adobe.com/content/help/zh-Hant/experience-platform/profile/api/getting-started.html)，瞭解如何使用設定檔API存取即時客戶設定檔資料。
 
 本文會大量參考上述連結的教學課程。
 
@@ -30,7 +30,7 @@ Adobe [!DNL Experience Platform]可以即時存取客戶設定檔；[[!DNL Exper
 
 ### 驗證[!DNL Platform]
 
-在執行以下任何呼叫之前，請先參閱[此](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html)驗證教學課程。
+在執行以下任何呼叫之前，請先參閱[此](https://docs.adobe.com/content/help/zh-Hant/experience-platform/tutorials/authentication.html)驗證教學課程。
 
 ### API路徑
 
@@ -54,7 +54,7 @@ API的基本路徑為： `/data/core/ups/access/entities`
 
 ## 使用身分存取即時客戶設定檔
 
-設定檔API可讓您透過GET請求使用身分存取設定檔。 以下章節將遵循此[指南](https://docs.adobe.com/content/help/en/experience-platform/profile/api/entities.html)。
+設定檔API可讓您透過GET請求使用身分存取設定檔。 以下章節將遵循此[指南](https://docs.adobe.com/content/help/zh-Hant/experience-platform/profile/api/entities.html)。
 
 ### 使用身分存取設定檔資料
 
@@ -468,5 +468,5 @@ curl -X GET \
 ## 參考文章
 
 * [即時客戶設定檔API](https://adobe.ly/2TtDHWr)
-* [使用設定檔API教學課程存取即時客戶設定檔資料](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html)
-* [[!DNL Experience Platform]驗證指南](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html)
+* [使用設定檔API教學課程存取即時客戶設定檔資料](https://docs.adobe.com/content/help/zh-Hant/experience-platform/profile/api/getting-started.html)
+* [[!DNL Experience Platform]驗證指南](https://docs.adobe.com/content/help/zh-Hant/experience-platform/tutorials/authentication.html)
