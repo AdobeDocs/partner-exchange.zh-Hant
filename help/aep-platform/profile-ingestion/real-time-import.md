@@ -2,16 +2,19 @@
 title: 即時匯入
 description: 瞭解如何即時將資料匯入AEP。
 exl-id: 0b6215a9-1160-49ae-8aa5-302b47357200
-source-git-commit: fe7519c35fb9155ce54cad85941c887f15881a38
+TQID: https://experienceleague.adobe.com/GvWcwNPjQdmdKSUkwvJ2EpoCKJHGvf5c1Kn4dwWRVi8
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 0%
+source-wordcount: 642
+ht-degree: 4%
 
 ---
 
 # 將資料串流至AEP
 
-Adobe[!DNL Experience Platform]可讓設定檔和體驗事件進行串流處理，並且近乎即時提供。 所有透過串流傳送至AEP的資料都會保留在資料湖中。 您可以透過API或使用Adobe Launch將資料串流至現有資料集或全新的資料集。
+Adobe [!DNL Experience Platform]允許對設定檔和體驗事件進行串流處理，並可近乎即時地使用。 所有透過串流傳送至AEP的資料都會保留在資料湖中。 您可以透過API或使用Adobe Launch將資料串流至現有資料集或全新的資料集。
 
 本文章將涵蓋下列內容：
 
@@ -67,7 +70,7 @@ curl -X POST https://platform.adobe.io/data/foundation/flowservice/connections \
 }
 ```
 
-請務必儲存上述回應中提供的ID，以供日後的串流擷取呼叫使用(Postman集合會將此專案儲存在CONNECTION_ID環境變數中)。
+請務必儲存上述回應中提供的ID，以供日後的串流擷取呼叫使用（Postman集合會將此專案儲存在CONNECTION_ID環境變數中）。
 
 ## 將設定檔資料串流至AEP
 
@@ -99,11 +102,11 @@ curl -X POST https://platform.adobe.io/data/foundation/flowservice/connections \
 
 ## 使用Experience Platform標籤串流至AEP
 
-Adobe[!DNL Experience Platform] Launch擴充功能提供透過Launch串流至AEP的方式。 若要深入瞭解，請參閱[本指南](https://docs.adobe.com/content/help/zh-Hant/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html)。
+Adobe [!DNL Experience Platform] Launch擴充功能提供透過Launch串流至AEP的方式。 若要深入瞭解，請參閱[本指南](https://docs.adobe.com/content/help/zh-Hant/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html)。
 
 ## 參考文章
 
 * [資料擷取API](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#/acpdr/swagger-specs)
-* [串流擷取總覽](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/streaming_ingest_overview.md)
+* [串流擷取概觀](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/streaming_ingest_overview.md)
 * [串流擷取開發人員指南](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)
 * [使用AEP Launch擴充功能](https://docs.adobe.com/content/help/zh-Hant/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html)

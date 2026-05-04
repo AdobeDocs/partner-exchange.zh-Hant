@@ -2,9 +2,14 @@
 title: 存取整合式設定檔
 description: 使用API來存取整合式設定檔。
 exl-id: c9d2fa2d-9ffe-4e66-996f-ad930bee22c6
-source-git-commit: 0690a52c3be0981a626e49729e51cb1729816c87
+TQID: https://experienceleague.adobe.com/ECndsmKpnN3No-PYL0kq0lktWuDK4Z6lFb99i82dK7k
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: 797
 ht-degree: 0%
 
 ---
@@ -393,7 +398,7 @@ curl -X GET \
 
 ### 設定檔時間序列事件的分頁
 
-擷取時間序列事件時，結果會分頁。 如果有後續結果頁面，回應的&amp;amp；lowbar；page.next引數將包含ID。 此外，回應的&amp;amp；lowbar；links.next.href引數可提供要求URI以擷取後續頁面。
+擷取時間序列事件時，結果會分頁。 如果有後續結果頁面，回應的&amp;lowbar；page.next引數將包含ID。 此外，回應的&amp;lowbar；links.next.href引數提供要求URI，以供擷取後續頁面。
 
 要求：
 
@@ -411,7 +416,7 @@ curl -X GET \
 
 回應：
 
-成功的回應會傳回結果的下一頁。 此範例示範沒有後續結果頁面的回應，如&amp;amp；lowbar；page.next和&amp;amp；lowbar；links.next.href的空字串值所指示。
+成功的回應會傳回結果的下一頁。 此範例示範沒有後續結果頁面的回應，如&amp;lowbar；page.next和&amp;lowbar；links.next.href的空字串值所示。
 
 ```
 {
@@ -464,4 +469,4 @@ curl -X GET \
 
 * [即時客戶設定檔API](https://adobe.ly/2TtDHWr)
 * [使用設定檔API教學課程存取即時客戶設定檔資料](https://docs.adobe.com/content/help/zh-Hant/experience-platform/profile/api/getting-started.html)
-* [[!DNL Experience Platform] 驗證指南](https://docs.adobe.com/content/help/zh-Hant/experience-platform/tutorials/authentication.html)
+* [[!DNL Experience Platform]驗證指南](https://docs.adobe.com/content/help/zh-Hant/experience-platform/tutorials/authentication.html)

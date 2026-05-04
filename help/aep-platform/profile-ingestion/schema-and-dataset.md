@@ -1,11 +1,16 @@
 ---
 title: 建立AEP結構描述和資料集
-description: 在Experience Platform中建立方案和資料集。
+description: 在Experience Platform中建立結構描述和資料集。
 exl-id: a2773551-20a3-4a5b-ab53-60fa67e38ec0
-source-git-commit: fe7519c35fb9155ce54cad85941c887f15881a38
+TQID: https://experienceleague.adobe.com/uQtIQwCgsjOd5pR5w4LF634-Whvjl0jmF5WywVWlkZQ
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 10%
+source-wordcount: 617
+ht-degree: 17%
 
 ---
 
@@ -15,7 +20,7 @@ ht-degree: 10%
 
 ## 結構描述
 
-結構是一組規則，可代表及驗證資料的結構和格式。 在高層面上，結構描述會提供真實世界物件（例如人）的抽象定義，並概述該物件的每個例項中應該包含哪些資料（例如名字、姓氏、生日等）。 可在UI中或使用[!DNL Experience Platform] API建立結構描述。
+結構描述是一組規則，足以代表並驗證資料的結構和格式。 從高層面來說，結構提供了真實對象 (如人) 的抽象定義，並概述應包含在該對象的每個執行個體中的資料 (如名字、姓氏、生日等)。 可在UI中或使用[!DNL Experience Platform] API建立結構描述。
 
 如需詳細資訊，請參閱[此檔案](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_composition/schema_composition.md)。
 
@@ -31,7 +36,7 @@ ht-degree: 10%
 
 ## 資料集
 
-所有引入Adobe[!DNL Experience Platform]的資料都包含在資料集中。 資料集是資料集合的儲存和管理結構，通常是包含方案 (欄) 和欄位 (列) 的表格。 資料集也包含中繼資料，可說明其儲存資料的各個層面。
+所有匯入Adobe [!DNL Experience Platform]的資料都包含在資料集中。 資料集是資料集合的儲存和管理結構，通常是包含方案 (欄) 和欄位 (列) 的表格。 資料集也包含中繼資料，可說明其儲存資料的各個層面。
 
 目錄服務是[!DNL Experience Platform]內資料位置和歷程的記錄系統，用於建立和管理資料集。 目錄會追蹤每個資料集的中繼資料，包括資料集所符合（下一節將說明）的Experience Data Model (XDM)結構描述參考，以及擷取至該資料集的記錄數。
 
