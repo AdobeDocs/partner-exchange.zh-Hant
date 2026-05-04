@@ -3,8 +3,10 @@ title: 存取整合式設定檔
 description: 使用API來存取整合式設定檔。
 exl-id: c9d2fa2d-9ffe-4e66-996f-ad930bee22c6
 TQID: https://experienceleague.adobe.com/ECndsmKpnN3No-PYL0kq0lktWuDK4Z6lFb99i82dK7k
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2: id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
 workflow-type: tm+mt
 source-wordcount: 797
@@ -332,7 +334,7 @@ curl -X POST \
 向/access/entities端點發出GET請求，以透過其相關聯設定檔實體的身分存取時間序列事件。 此身分包含ID值(entityId)和身分名稱空間(entityIdNS)。
 
 要求：
-下列要求會依ID尋找設定檔實體，並擷取與該實體關聯的所有**時間序列事件的屬性endUserIDs、Web和管道**&#x200B;的值。
+下列要求會依ID尋找設定檔實體，並擷取與該實體關聯的所有&#x200B;**時間序列事件的屬性endUserIDs、Web和管道**&#x200B;的值。
 
 ```
 curl -X GET \
