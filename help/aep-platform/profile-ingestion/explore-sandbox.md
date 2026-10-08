@@ -36,7 +36,7 @@ ht-degree: 1%
 * 在[!DNL Admin Console]中邀請新使用者。
 * 導覽AEP UI。
 
-如需AEP中沙箱技術的一般概觀，請參閱此[文章](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html)。
+如需AEP中沙箱技術的一般概觀，請參閱此[文章](https://docs.adobe.com/content/help/zh-Hant/experience-platform/sandbox/home.html)。
 
 ## 共用的AEP沙箱
 
@@ -78,7 +78,7 @@ Exchange合作夥伴可透過其自己的Adobe [!DNL Experience Cloud]組織（�
 
 ## 導覽AEP UI
 
-觀看AEP UI [簡介影片](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intro-to-platform/interface-tour.html)
+觀看AEP UI [簡介影片](https://docs.adobe.com/content/help/zh-Hant/platform-learn/tutorials/intro-to-platform/interface-tour.html)
 
 AEP UI中有12個主要區域可透過左側面板瀏覽。 不過，此類整合最重要的區段是結構描述、資料集和設定檔。
 
