@@ -5,22 +5,27 @@ exl-id: 62c21615-4b03-4900-a1ad-8f809c836491
 TQID: https://experienceleague.adobe.com/A5sl-xNZBPjIKn6HO1iwM78IaQWQs4yBgbw9wwpMrGw
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
+    internal-label: Customer profiles
+source-git-commit: 3cfb1b99df78991b22d2a3fd0e3d3be822422acc
 workflow-type: tm+mt
-source-wordcount: 772
+source-wordcount: '772'
 ht-degree: 1%
-
 ---
-
 # 存取及探索AEP沙箱
 
 本文涵蓋下列內容：
@@ -31,7 +36,7 @@ ht-degree: 1%
 * 在[!DNL Admin Console]中邀請新使用者。
 * 導覽AEP UI。
 
-如需AEP中沙箱技術的一般概觀，請參閱此[文章](https://docs.adobe.com/content/help/zh-Hant/experience-platform/sandbox/home.html)。
+如需AEP中沙箱技術的一般概觀，請參閱此[文章](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html)。
 
 ## 共用的AEP沙箱
 
@@ -40,9 +45,9 @@ Exchange合作夥伴可透過其自己的Adobe [!DNL Experience Cloud]組織（�
 * 無法透過主要Adobe [!DNL Experience Cloud]沙箱組織的合作夥伴存取AEP。
 * 若要存取AEP，需透過共用的Adobe Exchange組織。
 * 許多其他Adobe Exchange合作夥伴公司也使用相同的組織存取AEP
-   * 透過AEP沙箱功能，其他合作夥伴將無法檢視或修改此共用組織內的資料和活動；每個合作夥伴都可以存取共用組織內的不同沙箱。
+  * 透過AEP沙箱功能，其他合作夥伴將無法檢視或修改此共用組織內的資料和活動；每個合作夥伴都可以存取共用組織內的不同沙箱。
 * 此共用組織中的管理許可權非常有限。
-* 獲得在AEP上存取沙箱的許可權後，合作夥伴將在UI的右上角在Org Switcher上看到兩個組織，同時在Admin Console或Experience Cloud首頁中。 不過，登入AEP時，應該只會顯示共用的組織。
+* 獲得在AEP上存取沙箱的許可權後，合作夥伴將在UI的右上角的組織切換器上看到兩個組織，同時在Admin Console或Experience Cloud首頁面中看到。 不過，登入AEP時，應該只會顯示共用的組織。
 
 ## 請求共用AEP沙箱的存取權
 
@@ -73,15 +78,15 @@ Exchange合作夥伴可透過其自己的Adobe [!DNL Experience Cloud]組織（�
 
 ## 導覽AEP UI
 
-觀看AEP UI [簡介影片](https://docs.adobe.com/content/help/zh-Hant/platform-learn/tutorials/intro-to-platform/interface-tour.html)
+觀看AEP UI [簡介影片](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intro-to-platform/interface-tour.html)
 
 AEP UI中有12個主要區域可透過左側面板瀏覽。 不過，此類整合最重要的區段是結構描述、資料集和設定檔。
 
 * 首頁 — 登陸畫面
 
-   * 建議一些快速入門活動
-   * 提供學習內容的一些連結
-   * 提供某些主要AEP物件的儀表板檢視，例如結構描述、資料集和設定檔
+  * 建議一些快速入門活動
+  * 提供學習內容的一些連結
+  * 提供某些主要AEP物件的儀表板檢視，例如結構描述、資料集和設定檔
 
 * 工作流程 — 將資料引進AEP的常用工作流程啟動
 * 連線/來源 — 管理傳入AEP的資料來源

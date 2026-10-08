@@ -5,15 +5,15 @@ exl-id: 50576b67-b3ba-498e-86f6-7e1986b76985
 TQID: https://experienceleague.adobe.com/sJjuydUOIwlu4gv6qmokidQJVrYLN4--M8m3DTkcjf0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
+    internal-label: Troubleshooting
+source-git-commit: 3cfb1b99df78991b22d2a3fd0e3d3be822422acc
 workflow-type: tm+mt
-source-wordcount: 646
+source-wordcount: '646'
 ht-degree: 0%
-
 ---
-
 # 將批次資料匯入AEP
 
 AEP可從一般檔案（例如parquet）或符合[!UICONTROL Experience Data Model] (XDM)登入中已知結構描述的資料中，擷取包含設定檔資料的批次檔案。

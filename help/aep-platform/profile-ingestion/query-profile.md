@@ -5,18 +5,18 @@ exl-id: c9d2fa2d-9ffe-4e66-996f-ad930bee22c6
 TQID: https://experienceleague.adobe.com/ECndsmKpnN3No-PYL0kq0lktWuDK4Z6lFb99i82dK7k
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
+    internal-label: Customer profiles
+source-git-commit: 3cfb1b99df78991b22d2a3fd0e3d3be822422acc
 workflow-type: tm+mt
-source-wordcount: 797
+source-wordcount: '797'
 ht-degree: 0%
-
 ---
-
 # 使用設定檔API存取統一設定檔
 
-Adobe [!DNL Experience Platform]可以即時存取客戶設定檔；[[!DNL Experience Platform] 即時客戶設定檔API](https://adobe.ly/2TtDHWr)已設計為可與它互動。 請參閱此[教學課程](https://docs.adobe.com/content/help/zh-Hant/experience-platform/profile/api/getting-started.html)，瞭解如何使用設定檔API存取即時客戶設定檔資料。
+Adobe [!DNL Experience Platform]可以即時存取客戶設定檔；[[!DNL Experience Platform] 即時客戶設定檔API](https://adobe.ly/2TtDHWr)已設計為可與它互動。 請參閱此[教學課程](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html)，瞭解如何使用設定檔API存取即時客戶設定檔資料。
 
 本文會大量參考上述連結的教學課程。
 
@@ -30,7 +30,7 @@ Adobe [!DNL Experience Platform]可以即時存取客戶設定檔；[[!DNL Exper
 
 ### 驗證[!DNL Platform]
 
-在執行以下任何呼叫之前，請先參閱[此](https://docs.adobe.com/content/help/zh-Hant/experience-platform/tutorials/authentication.html)驗證教學課程。
+在執行以下任何呼叫之前，請先參閱[此](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html)驗證教學課程。
 
 ### API路徑
 
@@ -54,11 +54,11 @@ API的基本路徑為： `/data/core/ups/access/entities`
 
 ## 使用身分存取即時客戶設定檔
 
-設定檔API可讓您透過GET請求使用身分存取設定檔。 以下章節將遵循此[指南](https://docs.adobe.com/content/help/zh-Hant/experience-platform/profile/api/entities.html)。
+設定檔API可讓您透過GET要求使用身分存取設定檔。 以下章節將遵循此[指南](https://docs.adobe.com/content/help/en/experience-platform/profile/api/entities.html)。
 
 ### 使用身分存取設定檔資料
 
-此API可讓您使用身分存取設定檔資訊。 方法是向/access/entities發出GET請求，使用實體ID作為其中一個引數和實體ID名稱空間。 注意：請記得，任何傳回50筆記錄的請求只會傳送422 HTTP狀態和顯示「太多相關身分」的訊息，而且搜尋範圍需要以更多引數縮小。
+此API可讓您使用身分存取設定檔資訊。 這可透過以實體ID作為引數和實體ID名稱空間之一向/access/entities發出GET請求來完成。 注意：請記得，任何傳回50筆記錄的請求只會傳送422 HTTP狀態和顯示「太多相關身分」的訊息，而且搜尋範圍需要以更多引數縮小。
 
 要求：
 
@@ -327,14 +327,14 @@ curl -X POST \
 
 ## 時間序列事件
 
-合作夥伴可以透過向/access/entities端點發出GET請求，以關聯設定檔實體的身分存取時間序列事件。
+合作夥伴可以透過向/access/entities端點發出GET要求，以關聯設定檔實體的身分存取時間序列事件。
 
 ### 依身分存取設定檔的時間序列事件
 
-向/access/entities端點發出GET請求，以透過其相關聯設定檔實體的身分存取時間序列事件。 此身分包含ID值(entityId)和身分名稱空間(entityIdNS)。
+透過向/access/entities端點發出GET請求，以透過其相關聯設定檔實體的身分存取時間序列事件。 此身分包含ID值(entityId)和身分名稱空間(entityIdNS)。
 
 要求：
-下列要求會依ID尋找設定檔實體，並擷取與該實體關聯的所有&#x200B;**時間序列事件的屬性endUserIDs、Web和管道**&#x200B;的值。
+下列要求會依ID尋找設定檔實體，並擷取與該實體關聯的所有**時間序列事件的屬性endUserIDs、Web和管道**&#x200B;的值。
 
 ```
 curl -X GET \
@@ -468,5 +468,5 @@ curl -X GET \
 ## 參考文章
 
 * [即時客戶設定檔API](https://adobe.ly/2TtDHWr)
-* [使用設定檔API教學課程存取即時客戶設定檔資料](https://docs.adobe.com/content/help/zh-Hant/experience-platform/profile/api/getting-started.html)
-* [[!DNL Experience Platform]驗證指南](https://docs.adobe.com/content/help/zh-Hant/experience-platform/tutorials/authentication.html)
+* [使用設定檔API教學課程存取即時客戶設定檔資料](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html)
+* [[!DNL Experience Platform]驗證指南](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html)
